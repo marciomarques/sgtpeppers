@@ -1,0 +1,212 @@
+body{
+    background: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.text-center{
+	text-align: center;
+}
+.center{
+	margin: 0 auto;
+}
+
+.container{
+    width: 1174px;
+}
+
+.Banner{
+    background: #13A7C7;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 400px;
+}
+
+.Banner h1{    
+  color: #fff;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 55px;
+  margin-top: 60px;
+  padding-top: 10px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.Banner h2{
+  color: #fff;
+  font-size: 38px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 30px;
+  background: url(images/stars.png) no-repeat center bottom;
+}
+
+.BtnCta{
+  display: inline-block;
+  min-height: 80px;
+  line-height: 80px;    
+  width: 400px;
+  font-size: 20px;    
+  text-transform: uppercase;
+  border-radius: 0; 
+}
+
+a.BtnCta{
+    color: #fff;
+    background: #137795;
+    border-bottom: 4px solid #1b93b7;
+    text-decoration:none;
+}
+
+a:hover.BtnCta{
+    color: #21afb9;
+    background: #fff;
+    border-bottom: 4px solid #1ebbc6;
+}
+
+section{
+    padding: 50px 0 50px 0;
+}
+
+.mais{
+    background: #f6f8f8;
+}
+
+.LeadMais{
+    padding: 0 0 50px 0;
+}
+
+.Clientes{
+    background: #137795 url(images/clientes.png) no-repeat center;
+}
+
+.Sobre{
+    background-color: #ecf8ff;
+}
+
+.Sobre p{
+    font-size: 18px;
+    color: #2ba6cb;
+    line-height: 26px;
+    text-align: left;
+}
+
+.Sobre h1{
+    color: #2ba6cb;
+    text-align: left;
+    padding-top: 20px;
+}
+
+.MaisSobre{ 
+    background-color: #f6f8f8;
+}    
+
+.MaisSobre p{
+    color: #999a9d;
+    font-size: 18px;
+    line-height: 26px;
+    padding-top: 20px;
+}
+
+.MaisSobre h1, .MaisSobre h2{
+    color: #999a9d;
+}
+
+.MaisSobre h1, .Sobre h1, #footer h1{
+    font-size: 60px;
+}
+
+.Rocket{
+    margin-top: 50px;
+}
+
+.Bulb{
+    margin-top: 20px;   
+}
+
+article h1{
+    font-size: 60px;
+    color: #999a9d;
+    font-weight: 700;
+    line-height: 50px;
+    margin: 20px 0 20px 0;
+    text-transform: uppercase;
+}
+
+article h2{
+    font-size: 32px;
+    color: #999a9d;
+    font-weight: 400;
+    line-height: 20px;
+    font-family: 'Satisfy', cursive;
+}
+
+.boxe h2{
+    color: #2ba6cb;
+}
+
+h1, h2 {
+    font-size: 70px;
+    color: #2ba6cb;
+    font-weight: 700; 
+    line-height: 70px;
+}
+
+p.Servicos{
+    font-family: 'Satisfy', cursive;
+    font-size: 24px;
+    line-height: 25px;
+    color: #999a9d;
+}
+
+.span4.boxe{
+    width: 370px;
+}
+
+.CtaContato{
+    background-color: #13A7C7;
+}
+
+.CtaContent{
+    background: url(images/arrow.png) 250px 40px no-repeat;
+}
+
+.CtaContato p{
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#footer{
+    background: #363636;
+    padding: 50px 0 50px 0;
+}
+
+#footer h1, #footer h2{
+    color: #fff;
+}
+
+#footer p{
+    color: #fff;
+}
+
+.LogoFooter{
+    width: 381px;
+    height: 51px;
+    background: url(images/logo-footer.png) center no-repeat;
+    text-align: center;
+    padding: 50px 0 50px 0;
+    display: inline-block;
+}
+
+
+.SocialFooterTwitter{
+    margin-bottom: 20px;
+}
+
+.SocialFooterFacebook{
+    background-color: rgba(255, 255, 255, 0.19);
+    width: 520px;
+    padding: 10px;
+    display: inline-block;
+}
