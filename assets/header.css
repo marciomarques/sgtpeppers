@@ -1,56 +1,51 @@
 .Header{
-    background-color: #363636;
-    min-height: 100px;
+    background: url(images/bg-header.jpg) no-repeat center top;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 1000px;
+    border-bottom: 1px solid #f7cb4b;
 }
 
-.Logo{
-    background: url(images/logo.png) no-repeat;
-    width: 180px;
-    min-height: 60px;
-    margin-top: 20px;
-    display:block;
-    text-indent: -9999px;
+.Intro{
+    max-width: 700px;
+    min-height: 700px;
+    background: url(images/bg-logo.png) no-repeat center;
+    padding: 20px;
+    margin-top: 50px;
+    display: inline-block;
 }
 
 a{
-  font-size: 14px;
-  color: #309e47;
-  text-decoration: underline;
+    font-variant: 700px;
+    color: #f7cb4b;
+    text-decoration: underline;
+    text-transform: uppercase;
+    display: inherit;
 }
 
-.Facebook, .Twitter, .Blog{
-    display: inline-block;
-    width: 40px;
-    height: 39px;
-    text-indent: -9999px;
-    margin-top: 30px;
-    padding-left: 10px;
+#Menu{
+    font-size: 30px;
+    margin-top: 20px;
+    line-height: 30px;
 }
 
-.Social{
-    width: 165px;
+#Menu ul {
+	padding:0px;
+	margin:0px;
+	list-style:none;
 }
 
-a.Facebook{
-    background: url(images/social.png) 0px 0px no-repeat;
+#Menu ul li { display: inline; }
+
+#Menu ul li a {
+	padding: 2px 15px;
+	display: inline-block;
+	color: #f7cb4b;
+	text-decoration: none;
 }
 
-a:hover.Facebook{
-    background: url(images/social.png) 0px -48px no-repeat;
-}
-
-a.Twitter{
-    background: url(images/social.png) 0px -96px no-repeat;
-}
-
-a:hover.Twitter{
-    background: url(images/social.png) 0px -144px no-repeat;
-}
-
-a.Blog{
-    background: url(images/social.png) 0px -193px no-repeat;
-}
-
-a:hover.Blog{
-    background: url(images/social.png) 0px -242px no-repeat;
+#Menu ul li a:hover {
+	background-color:#f7cb4b;
+	color: #fff;
+    border-bottom: 3px solid #EDEDED;
 }

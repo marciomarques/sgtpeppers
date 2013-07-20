@@ -1,6 +1,7 @@
 body{
     background: #fff;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Old Standard TT', serif;
+    font-weight: 300;
 }
 
 .text-center{
@@ -10,203 +11,120 @@ body{
 	margin: 0 auto;
 }
 
-.container{
-    width: 1174px;
+p, h1, h2, h3{
+    color: #f7cb4b;
 }
 
-.Banner{
-    background: #13A7C7;
+h2{
+    margin-top: 280px;
+    max-width: 550px;
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 700;
+    display: inline-block;
+}
+
+h3{
+    margin-top: 100px;
+    max-width: 550px;
+    font-size: 80px;
+    line-height: 40px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    display: inline-block;
+}
+
+h4{
+    width: 400px;
+    min-height: 60px;
+    font-size: 20px;
+    line-height: 60px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    display: inline-block;
+    background-color: #f7cb4b;
+}
+
+.AgendaFoto{
+    background: url(images/bg-agenda.jpg) no-repeat center top;
     background-attachment: fixed;
     background-size: cover;
-    min-height: 400px;
 }
 
-.Banner h1{    
-  color: #fff;
-  font-size: 80px;
-  font-weight: 700;
-  line-height: 55px;
-  margin-top: 60px;
-  padding-top: 10px;
-  text-transform: uppercase;
-  text-align: center;
+.Agenda p{
+    font-size: 18px;
 }
 
-.Banner h2{
-  color: #fff;
-  font-size: 38px;
-  font-weight: 400;
-  text-align: center;
-  margin-bottom: 30px;
-  background: url(images/stars.png) no-repeat center bottom;
+p{
+    font-size: 16px;
+    font-weight: 400;
+    width: 500px;
+    display: inline-block;
+    line-height: 20px;
 }
 
-.BtnCta{
-  display: inline-block;
-  min-height: 80px;
-  line-height: 80px;    
-  width: 400px;
-  font-size: 20px;    
-  text-transform: uppercase;
-  border-radius: 0; 
+.BtnFacebook{
+    display: inline-block;
+    min-height: 60px;
+    line-height: 60px;    
+    width: 340px;
+    font-size: 16px;  
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 0;
+    margin-top: 50px;
+    background: url(images/ico-facebook.png) 0 10px  no-repeat;
 }
 
-a.BtnCta{
+a.BtnFacebook{
     color: #fff;
-    background: #137795;
-    border-bottom: 4px solid #1b93b7;
     text-decoration:none;
+    padding-left: 20px;
+    background: #3b5998 url(images/ico-facebook.png) 20px 10px  no-repeat;
 }
 
-a:hover.BtnCta{
-    color: #21afb9;
-    background: #fff;
-    border-bottom: 4px solid #1ebbc6;
+a:hover.BtnFacebook{
+    color: #fff;
+    background: #3c62b1 url(images/ico-facebook.png) 20px 10px  no-repeat;
 }
 
 section{
-    padding: 50px 0 50px 0;
+    padding: 100px 0 100px 0;
+    border-bottom: 5px solid #f7cb4b;
 }
 
-.mais{
-    background: #f6f8f8;
-}
-
-.LeadMais{
-    padding: 0 0 50px 0;
-}
-
-.Clientes{
-    background: #137795 url(images/clientes.png) no-repeat center;
-}
-
-.Sobre{
-    background-color: #ecf8ff;
-}
-
-.Sobre p{
-    font-size: 18px;
-    color: #2ba6cb;
-    line-height: 26px;
-    text-align: left;
-}
-
-.Sobre h1{
-    color: #2ba6cb;
-    text-align: left;
-    padding-top: 20px;
-}
-
-.MaisSobre{ 
-    background-color: #f6f8f8;
-}    
-
-.MaisSobre p{
-    color: #999a9d;
-    font-size: 18px;
-    line-height: 26px;
-    padding-top: 20px;
-}
-
-.MaisSobre h1, .MaisSobre h2{
-    color: #999a9d;
-}
-
-.MaisSobre h1, .Sobre h1, #footer h1{
-    font-size: 60px;
-}
-
-.Rocket{
+.Agenda{
+    max-width: 700px;
+    min-height: 700px;
+    background: url(images/bg-section.png) no-repeat center;
+    padding: 20px;
     margin-top: 50px;
+    display: inline-block;
 }
 
-.Bulb{
-    margin-top: 20px;   
+.Guitar{
+    background: transparent url(images/guitar.png) no-repeat;
+    width: 240px;
+    height: 419px;
+    margin-top: -400px;
+    margin-left: 50px;
 }
 
-article h1{
-    font-size: 60px;
-    color: #999a9d;
+#Footer{
+    background: #231f20;
+    padding: 50px 0 50px 0;
+    min-height: 400px;
+}
+
+#Footer h3{
+    font-size: 50px;
+    line-height: 60px;
     font-weight: 700;
-    line-height: 50px;
-    margin: 20px 0 20px 0;
-    text-transform: uppercase;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: block;
 }
 
-article h2{
-    font-size: 32px;
-    color: #999a9d;
-    font-weight: 400;
-    line-height: 20px;
-    font-family: 'Satisfy', cursive;
-}
-
-.boxe h2{
-    color: #2ba6cb;
-}
-
-h1, h2 {
-    font-size: 70px;
-    color: #2ba6cb;
-    font-weight: 700; 
-    line-height: 70px;
-}
-
-p.Servicos{
-    font-family: 'Satisfy', cursive;
-    font-size: 24px;
-    line-height: 25px;
-    color: #999a9d;
-}
-
-.span4.boxe{
-    width: 370px;
-}
-
-.CtaContato{
-    background-color: #13A7C7;
-}
-
-.CtaContent{
-    background: url(images/arrow.png) 250px 40px no-repeat;
-}
-
-.CtaContato p{
-    color: #fff;
-    font-size: 18px;
-    margin-bottom: 20px;
-}
-
-#footer{
-    background: #363636;
-    padding: 50px 0 50px 0;
-}
-
-#footer h1, #footer h2{
-    color: #fff;
-}
-
-#footer p{
-    color: #fff;
-}
-
-.LogoFooter{
-    width: 381px;
-    height: 51px;
-    background: url(images/logo-footer.png) center no-repeat;
-    text-align: center;
-    padding: 50px 0 50px 0;
-    display: inline-block;
-}
-
-
-.SocialFooterTwitter{
-    margin-bottom: 20px;
-}
-
-.SocialFooterFacebook{
-    background-color: rgba(255, 255, 255, 0.19);
-    width: 520px;
-    padding: 10px;
-    display: inline-block;
+#Footer p{
+    text-align: left;
 }
